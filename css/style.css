@@ -1,0 +1,65 @@
+ html {
+	scroll-behavior: smooth;
+}
+.background { 
+    background-image: url(../img/bg.gif);
+	background-repeat: repeat-x repeat-y;
+   }
+.img-selector {
+	height: 416px;
+}
+.logo {
+	width: 416px;
+}
+.wrap {
+  width: 416px;
+  height: 416px;
+  text-align: center;
+  display: block;
+ }
+ .logo-style{
+	 height: 200px;
+ }
+ .logo-style-text{
+	 height: 100px;
+ }
+ .kakpoynibud{
+	 justify-content: space-between;
+	 display: block;
+	 align-items: center;
+ }
+ .main-text{
+  width: 416px;
+  height: 200px;
+  background: #000;
+  text-align: center;
+  color: white;
+  opacity: 0;
+  position: relative;
+  top: -200px;
+ } 
+ .main-text:hover {
+   opacity: 0.5;
+   transition: all 0.5s ease;
+ }
+ .title {
+  width: 416px;
+  height: 416px;
+  background: #000;
+  text-align: center;
+  color: white;
+  position: relative;
+   opacity: 0;
+  top: -416px;
+ }
+ .title:hover {
+   opacity: 0.5;
+   transition: all 0.5s ease;
+ }
+.title-text {
+	font-style: normal;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 46px;
+}
